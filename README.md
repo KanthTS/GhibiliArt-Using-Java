@@ -8,6 +8,11 @@ Built with a **Java Spring Boot backend** and a **React frontend**, powered by *
 📸 Demo
 
 
+
+Uploading freecompress-Screen Recording 2025-08-30 at 10.27.21 PM.mp4…
+
+
+
 ## 🚀 Features
 - ✨ Generate Studio Ghibli-style images from text prompts  
 - 🖼️ Download and save generated images  
