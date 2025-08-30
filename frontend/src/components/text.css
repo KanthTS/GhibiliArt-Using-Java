@@ -1,0 +1,109 @@
+/* === Container === */
+.create-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 90vh;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fdfcf7;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* === Titles === */
+.create-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+.create-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* === Output Section (Fixed Area) === */
+.create-output {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;               /* 🔹 Fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;            /* keeps image inside box */
+}
+
+.output-placeholder {
+  color: #888;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.output-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 14px;
+  object-fit: contain;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+/* === Input Form (ChatGPT-style at bottom) === */
+.create-form {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+}
+
+.create-input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  outline: none;
+  resize: none;
+  min-height: 50px;
+  max-height: 120px;
+  transition: border 0.2s ease;
+}
+
+.create-input:focus {
+  border-color: #6d28d9; /* purple highlight */
+}
+
+.create-btn {
+  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+  color: #fff;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.create-btn:hover {
+  background: linear-gradient(135deg, #5b21b6, #4c1d95);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,39 @@
+.create-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.create-header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.create-header nav ul li {
+  transition: transform 0.2s ease;
+}
+
+.create-header nav ul li:hover {
+  transform: scale(1.05);
+}
+
+.create-header nav ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.create-header nav ul li a:hover {
+  color: #7c3aed; /* purple hover like header */
+}

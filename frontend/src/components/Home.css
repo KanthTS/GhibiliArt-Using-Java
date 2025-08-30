@@ -1,0 +1,124 @@
+/* General page spacing */
+.homepage {
+  padding: 2rem;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(to right, #f5f3ff, #e0e7ff);
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background: #7c3aed;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #6b21a8;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.feature {
+  flex: 1;
+  padding: 1.5rem;
+  background: #f3f4f6;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.feature h3 {
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+/* Gallery Section */
+.gallery {
+  margin: 3rem 0;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Uniform image cards */
+.gallery-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 250px;         /* Fixed height */
+  object-fit: cover;     /* Crop image proportionally */
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-card img:hover {
+  transform: scale(1.05);
+}
+
+/* FAQ section */
+.faq {
+  margin: 3rem 0;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+details {
+  margin: 0.8rem 0;
+  padding: 1rem;
+  background: #f3f4f6;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: 600;
+  color: #111827;
+}
+
+details[open] p {
+  margin-top: 0.5rem;
+  color: #374151;
+}
