@@ -20,8 +20,8 @@ Built with a **Java Spring Boot backend** and a **React frontend**, powered by *
 
 ### 🌐 Frontend
 - ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
-- Tailwind CSS  
-- Axios (API calls)  
+-  CSS  
+- Axios and fetch (API calls)  
 
 ### ⚙️ Backend
 - ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)  
@@ -29,11 +29,6 @@ Built with a **Java Spring Boot backend** and a **React frontend**, powered by *
 - ![Spring](https://img.shields.io/badge/Spring_Framework-6DB33F?style=for-the-badge&logo=spring&logoColor=white)  
 - ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)  
 - REST APIs  
-
-### 📊 Database
-- ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
-or  
-- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)  
 
 ### 🤖 AI Integration
 - [Stability AI API](https://platform.stability.ai/)  
