@@ -1,4 +1,4 @@
-# 🌸 Ghibli Art Generator 🎨
+#  Ghibli Art Generator 🎨
 
 A full-stack web application that generates **Studio Ghibli-style images** using **AI prompts**.  
 Built with a **Java Spring Boot backend** and a **React frontend**, powered by **Stability AI’s API**.
