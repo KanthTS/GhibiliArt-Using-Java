@@ -5,6 +5,9 @@ Built with a **Java Spring Boot backend** and a **React frontend**, powered by *
 
 ---
 
+📸 Demo
+
+
 ## 🚀 Features
 - ✨ Generate Studio Ghibli-style images from text prompts  
 - 🖼️ Download and save generated images  
